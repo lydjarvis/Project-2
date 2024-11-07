@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+    background-image: url(./images/backgroundproject2.jpg);
+}
+
+.navbar {
+    background-color: darkcyan;
+}
+
+h1 {
+    text-align: center;
+}
+
+#searchInput {
+    text-align: center;
+}
+
