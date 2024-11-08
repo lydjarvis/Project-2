@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+    background-image: url(../images/background.jpg)
+}
+
+.navbar {
+    background-color:indianred;
+}
+
+h1 {
+    text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#searchInput {
+    text-align: center;
+}
+
+.section-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gif-items {
+    max-width: 200px;
+}
+
+.navbar-brand {
+    font-family: "Gowun Batang", serif;
+    font-style: normal;
+}

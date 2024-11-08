@@ -1,7 +1,7 @@
 async function displayData() {
     const giphyApiKey = "Zy3h56fvBHGzyNS61BYzn7rqnjxy92uY";
     const searchValue = document.getElementById("searchInput").value;
-    const limit = 10;
+    const limit = 20;
     const offset = 0;
     const url = `http://api.giphy.com/v1/gifs/search?q=${searchValue}&api_key=${giphyApiKey}&limit=${limit}&offset=${offset}`;
     try {
@@ -21,7 +21,7 @@ async function displayData() {
 
         const newImage = document.createElement("img");
         newImage.src = element.images.original.url;
-        newImage.className = "giphy_img";
+        newImage.className = "gif-items";
         sectionImage.appendChild(newImage);
       });
 
