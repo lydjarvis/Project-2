@@ -3,7 +3,7 @@ async function displayData() {
     const searchValue = document.getElementById("searchInput").value;
     const limit = 20;
     const offset = 0;
-    const url = `http://api.giphy.com/v1/gifs/search?q=${searchValue}&api_key=${giphyApiKey}&limit=${limit}&offset=${offset}`;
+    const url = `https://api.giphy.com/v1/gifs/search?q=${searchValue}&api_key=${giphyApiKey}&limit=${limit}&offset=${offset}`;
     try {
       const response = await fetch(url);
       console.log (response)
