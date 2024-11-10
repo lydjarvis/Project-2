@@ -18,7 +18,7 @@ This website is made for searching a keyword in the search bar and displaying re
 - As a user, I would like to be able to scroll through the gifs and see them organized in a grid
 
 # Wireframe:
-<img src="./project2/images/wireframe.png">
+<img src="./images/wireframe.png">
 
 # Future Improvemnets:
 - I would like to create a better style
